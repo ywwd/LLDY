@@ -10,29 +10,84 @@
     justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    width: 1500px;
-    height: 1000px;
+    width: 1200px;
+    height: 2000px;
 }
-box-zz{
-    margin: 0%;
-    padding: 0%;
-    height: 200px;
+    .box-1{
+        margin: 0%;
+        padding: 0%;
+        height: 100px;
+        display: flex;
     }
-.box-1{
-    margin: 0%;
-    padding: 0%;
-    background-color: rgb(0, 61, 163);
-    width: 600px;
-    height: 700px;
-    font-size: 200%;
-    color: aliceblue;
-}
-.box-2{
-    margin: 0%;
-    padding: 0%;
-    background-color: rgb(0, 61, 163);
-    width: 900px;
-    height: 700px;
-    font-size: 200%;
-    color: aliceblue;
-}
+        .box-1-1{
+            margin: 0%;
+            padding: 0%;
+            display: flex;
+            width:300px;
+            height:100px;
+        }
+        .box-l-2{
+            margin: 0%;
+            padding: 0%;
+            color: rgb(0, 61, 163);
+            width: 100%;
+            display: flex;
+            align-items: center;
+            font-size: 300%;
+        }
+    .box-2{
+        margin: 0%;
+        padding: 0%;
+        width: 900px;
+        height: 1900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+        .box-2-1{
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 100px;
+        background-color: rgb(0, 61, 163);
+        width: 900px;
+        height: 400px;
+        font-size: 200%;
+        color: aliceblue;
+        }
+            .box-2-1-1{
+                margin: 0%;
+                padding: 0%;
+                display: flex;
+                padding-bottom: 26px;
+                padding-left: 150px;
+            }
+        .box-2-2{
+            margin: 0%;
+            padding: 0%;
+            background-color: rgb(0, 61, 163);
+            width: 900px;
+            height: 1200px;
+            color: aliceblue;
+            border-radius: 50px;
+        }
+            .box-2-2-1{
+                margin: 0%;
+                padding: 0%;
+                font-size: 300%;
+                padding-top: 5%;
+                display: flex;
+                justify-content: center
+            }
+            .box-2-2-2{
+                margin: 0%;
+                padding: 0%;
+                font-size: 29px;
+                padding-top: 30px;
+                padding-left: 50px;
+                padding-right: 50px;
+                display: flex;
+                justify-content: center
+            }
