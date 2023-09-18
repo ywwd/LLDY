@@ -16,7 +16,9 @@
     .box-1{
         margin: 0%;
         padding: 0%;
+        width: 1200px;
         height: 100px;
+        padding-top: 50px;
         display: flex;
     }
         .box-1-1{
@@ -30,7 +32,7 @@
             margin: 0%;
             padding: 0%;
             color: rgb(0, 61, 163);
-            width: 100%;
+            width: 900px;
             display: flex;
             align-items: center;
             font-size: 300%;
@@ -85,6 +87,7 @@
                 margin: 0%;
                 padding: 0%;
                 font-size: 29px;
+                line-height: 50px;
                 padding-top: 30px;
                 padding-left: 50px;
                 padding-right: 50px;
