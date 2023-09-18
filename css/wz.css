@@ -5,4 +5,9 @@
 </style> */
 .djl{
     color: rgb(0, 61, 163);
+    margin: 0%;
+    padding: 0%;
+    width: 600px;
+    display: flex;
+    text-align:center;
 }
