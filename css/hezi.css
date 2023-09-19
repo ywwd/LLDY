@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     width: 1200px;
-    height: 2000px;
+    height: 100%;
 }
     .box-1{
         margin: 0%;
@@ -20,6 +20,8 @@
         height: 100px;
         padding-top: 50px;
         display: flex;
+        justify-content: center;
+        background-color: rgb(245,245,245);
     }
         .box-1-1{
             margin: 0%;
@@ -32,19 +34,22 @@
             margin: 0%;
             padding: 0%;
             color: rgb(0, 61, 163);
-            width: 900px;
+            width: 820px;
             display: flex;
             align-items: center;
+            justify-content: center;
             font-size: 300%;
         }
     .box-2{
         margin: 0%;
         padding: 0%;
-        width: 900px;
+        width: 1200px;
         height: 1900px;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        align-items: center;     
+        background-color: rgb(245,245,245);
     }
         .box-2-1{
         margin: 0%;
@@ -52,12 +57,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        border-radius: 100px;
+        border-radius: 50px;
         background-color: rgb(0, 61, 163);
         width: 900px;
         height: 400px;
         font-size: 200%;
         color: aliceblue;
+        opacity:0.8;
         }
             .box-2-1-1{
                 margin: 0%;
@@ -74,6 +80,7 @@
             height: 1200px;
             color: aliceblue;
             border-radius: 50px;
+            opacity:0.8;
         }
             .box-2-2-1{
                 margin: 0%;
@@ -93,4 +100,25 @@
                 padding-right: 50px;
                 display: flex;
                 justify-content: center
+            }
+    .box-img{
+        margin: 0%;
+        padding: 0%;
+        width: 1200px;
+        height: 1000px;
+        display: flex;
+        flex-direction: column
+    }   
+        .box-img-1{
+            margin: 0%;
+            padding: 0%;
+            width: 600px;
+            height: 1000px;
+            display: flex;
+        } 
+            .box-img-1-1{
+            margin: 0%;
+            padding: 0%;
+            width: 600px;
+            height: 500px;
             }
